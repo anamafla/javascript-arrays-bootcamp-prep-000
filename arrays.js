@@ -4,8 +4,8 @@ function addElementToBeginningOfArray(array, newItem) {
   let newArray = [newItem,...array];
 }
 
-function destructivelyAddElementToBeginningOfArray(array, newItem){
-  array.unshift(newItem);
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element);
   
 }
 
